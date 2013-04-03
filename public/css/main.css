@@ -1,0 +1,50 @@
+body {
+    background-color: #444;
+    font-family: Verdana, sans-serif;
+}
+
+header h1 {
+    color: #ddd;
+}
+
+header h1, article h2 {
+    text-shadow: 4px 0px 0px #000, -1px 0px 0px #000, 0px 3px 0px #000, 0px -1px 0px #000;
+    margin: 0px;
+}
+
+article h2 {
+    color: #999;
+    display: inline-block;
+    border-bottom: 1px dotted #000;
+}
+
+header {
+    border-bottom: 2px dashed #999;
+    padding: 10px;
+}
+
+article {
+    padding: 20px;
+}
+
+article ul {
+    list-style-type: square;
+    color: #fff;
+}
+
+article li {
+    line-height: 20px;
+}
+
+article a {
+    text-decoration: none;
+    color: #fff;
+}
+
+article a:hover {
+    color: #ccc;
+}
+
+article p {
+    color: #ddd;
+}
